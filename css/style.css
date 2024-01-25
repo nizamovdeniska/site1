@@ -1,17 +1,17 @@
 
 @font-face {
-	font-family: 'Mulish'; 
+	font-family: Mulish; 
 	src: url('font/Mulish-VariableFont_wght.ttf'); 
 	
  
 
 }
 @font-face{
-  font-family: "DM Sans";
+  font-family: DM Sans;
   src: url('font/DMSans-VariableFont_opsz\,wght.ttf');
 }
 @font-face{
-  font-family: "Manrope";
+  font-family: Manrope;
   src:  url('font/Manrope-VariableFont_wght.ttf');
 }
 
