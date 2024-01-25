@@ -1,0 +1,313 @@
+
+@font-face {
+	font-family: 'Mulish'; 
+	src: local('Mulish'),
+		url(/font/Mulish-VariableFont_wght.ttf); 
+ 
+
+}
+@font-face{
+  font-family: "DM Sans";
+  src: local('DM Sans'),
+  url(/font/DMSans-VariableFont_opsz\,wght.ttf);
+}
+@font-face{
+  font-family: "Manrope";
+  src: local('Manropes'),
+  url(/font/Manrope-VariableFont_wght.ttf);
+}
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    font-weight: bold; 
+    padding-left: 60px;
+    font-size: 25px;
+  }
+  .logo img {
+    width: 50px; 
+    margin-right: 10px; 
+  }
+  .nav-buttons {
+    display: flex;
+    gap: 40px;
+    color: #150A29;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 175% */
+  }
+  .nav-buttons button {
+    border: none; 
+    background-color: transparent; 
+    cursor: pointer;
+    font-size: 16px;
+    
+  }
+  .contact-button {
+    margin-right: 90px;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+  }
+
+  .main {
+    margin-top: 75px;
+    display: flex;
+    padding: 20px;
+  }
+  .left-column {
+    line-height: 1,5; 
+    flex: 1;
+    margin-left: 60px;
+    font-size: 40px;
+    font-weight: 700px;
+  }    
+  .right-column {
+    flex: 1;
+    padding: 20px;
+  }
+  .highlight {
+    display: inline-block;
+    position: relative; 
+    color: red;
+  }
+  .highlight:hover::after {
+    content: "";
+    position: absolute;
+    bottom: -2px; 
+    left: -2px;
+    right: -2px;
+    top: -2px;
+    border: 2px solid green;
+
+  }
+  .text1{
+    margin-top: 70px;
+    font-size: 29px;
+    font-weight: normal;
+    font-family: Manrope;
+  }
+  .buttons {
+    margin-top: 20px;
+
+
+  }
+  .get-started-button{
+    background-color: #FD695A;
+    color: white;
+    padding: 20px 46px;
+    border: none;
+    border-radius: 50px;
+    font-family: Mulish;
+  }
+  .watch-video-button{
+    border: none;
+    background-color: transparent; 
+    cursor: pointer; 
+    color: red;
+    font-family: Mulish;
+  }
+  .image {
+    max-width: 100%;
+    height: auto; 
+  }
+ 
+.textbest{
+  color: #3D3D3F;
+
+font-family: Mulish;
+font-size: 70px;
+font-style: normal;
+font-weight: 800;
+line-height: 94px; /* 134.286% */
+letter-spacing: 2px;
+}
+
+  .text7{
+    text-align: center;
+    margin-top: 90px;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .button-wrapper {
+    text-align: center;
+    margin-top: 90px;
+}
+  .button {
+    margin-top: 25px;
+    display: flex;
+    margin-left: 60px;
+    display: inline-block;
+    margin-right: 120px;
+}
+
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.left-container {
+  margin-top: 200px;
+  line-height: 1,5; 
+  flex: 1;
+  margin-left: 60px;
+  font-size: 40px;
+  font-weight: 70px;
+}
+
+.right-container {
+  margin-right: 90px;
+  margin-top: 150px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.red-text {
+  font-family: Mulish;
+  font-size: 30px;
+  margin-left: 25px;
+  color: red;
+}
+
+.text5{
+  font-family: Mulish;
+  margin-left: 25px;
+  margin-right: 90px;
+  margin-top: 30px;
+  font-size: 50px;
+  font-weight: normal;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 50px; /* 119.048% */
+}
+
+.text6{
+  margin-left: 25px;
+  margin-right: 90px;
+  margin-top: 30px;
+  font-size: 19px;
+  font-weight: normal;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px; /* 162.5% */
+}
+
+.oval-button {
+  margin-top: 30px;
+  margin-left: 25px;
+  font-size: 15px;
+  background-color: #FD695A;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 50px; 
+  text-align: center;
+  display: inline-block;
+  font-family: Mulish;
+}
+
+.block {
+  position: relative;
+  padding: 20px;
+  background-color: #f2f2f2;
+  text-align: center;
+  
+}
+
+
+.block:hover::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 1px;
+  background-color: red;
+}
+
+.read-more {
+  display: block;
+  text-align: center;
+  color: black;
+  width: 100px;
+  margin: 10px auto;
+  text-decoration: none;
+}
+
+.block:hover .read-more {
+  text-decoration: none;
+  color: red;
+}
+
+
+
+.left-container2 {
+
+  margin-left: 50px;
+  margin-top: 250px;
+  float: left;
+  width: 50%;
+}
+
+.right-container2 {
+  margin-left: 50px;
+  float: right;
+margin-top: 80px;
+
+}
+
+.about-us {
+  margin: 20px;
+}
+
+.explore-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+.besttext{
+  color: #3D3D3F;
+
+font-family: Mulish;
+font-size: 70px;
+font-style: normal;
+font-weight: 800;
+line-height: 94px; /* 134.286% */
+letter-spacing: 2px;
+}
+.textinbolockh2{
+  font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px; /* 140% */
+}
+ .textinbolockp{
+  color: #747474;
+  font-family: DM Sans;
+  font-size: 13.5px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 192.593% */
+ }
