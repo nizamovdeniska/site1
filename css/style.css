@@ -2,19 +2,19 @@
 @font-face {
 	font-family: 'Mulish'; 
 	src: local('Mulish'),
-		url(/font/Mulish-VariableFont_wght.ttf); 
+		url(font/Mulish-VariableFont_wght.ttf); 
  
 
 }
 @font-face{
   font-family: "DM Sans";
   src: local('DM Sans'),
-  url(/font/DMSans-VariableFont_opsz\,wght.ttf);
+  url(font/DMSans-VariableFont_opsz\,wght.ttf);
 }
 @font-face{
   font-family: "Manrope";
   src: local('Manropes'),
-  url(/font/Manrope-VariableFont_wght.ttf);
+  url(font/Manrope-VariableFont_wght.ttf);
 }
 
 
